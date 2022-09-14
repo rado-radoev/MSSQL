@@ -11,4 +11,4 @@ services:
       SA_PASSWORD: "passw0rD"
       ACCEPT_EULA: "Y"
     volumes:
-      - /Users/superlamer/docker/mssql/backup:/tmp/backups:ro
+      - ./mssql/backup:/tmp/backups:ro
