@@ -1,0 +1,15 @@
+{
+  "name": "mssql",
+  "version": "1.0.0",
+  "description": "local-db-test-knex",
+  "main": "knex-connect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RadoslavRadoev",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^2.2.0",
+    "mssql": "^9.0.1"
+  }
+}

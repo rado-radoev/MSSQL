@@ -1,0 +1,14 @@
+version: "3.2"
+services:
+
+  sql-server-db:
+    container_name: sql-server-db
+    image: mcr.microsoft.com/mssql/server:2019-CU15-ubuntu-20.04
+    ports:
+      - "1433:1433"
+    environment:
+      # USER: SA
+      SA_PASSWORD: "passw0rD"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - /Users/superlamer/docker/mssql/backup:/tmp/backups:ro
